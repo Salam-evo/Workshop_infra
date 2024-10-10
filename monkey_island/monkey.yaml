@@ -1,0 +1,10 @@
+apiVersion: retro.sparkfabrik.com/v1
+kind: Game
+metadata:
+  name: mokey-island1
+  namespace: games
+spec:
+  name: "The Secret of Monkey Island"
+  zipUrl: "https://dosgames.com/files/monkey1.zip"
+  dir: "."
+  exe: "MIDEMO.EXE"
