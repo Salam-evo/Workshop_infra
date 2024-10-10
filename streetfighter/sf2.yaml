@@ -1,0 +1,10 @@
+apiVersion: retro.sparkfabrik.com/v1
+kind: Game
+metadata:
+  name: sf2t
+  namespace: games
+spec:
+  name: "Street Fighter 2 Turbo"
+  zipUrl: "https://dosgames.com/files/DOSBOX_SSF2T.ZIP"
+  dir: "."
+  exe: "SF2TURBO.EXE"

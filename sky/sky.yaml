@@ -1,0 +1,10 @@
+apiVersion: retro.sparkfabrik.com/v1
+kind: Game
+metadata:
+  name: sky
+  namespace: games
+spec:
+  name: "Beneath a Steel Sky"
+  zipUrl: "https://dosgames.com/files/sky-disk.zip"
+  dir: "."
+  exe: "SKY.EXE"

@@ -1,0 +1,10 @@
+apiVersion: retro.sparkfabrik.com/v1
+kind: Game
+metadata:
+  name: donkeykong
+  namespace: games
+spec:
+  name: "CHAMP Kong"
+  zipUrl: "https://dosgames.com/files/ckong11.zip"
+  dir: "."
+  exe: "CKONG.EXE"

@@ -1,0 +1,116 @@
+
+          F-TETRIS V1.54 COPYRIGHT (C) MATEUSZ VISTE "FOX" 2002-2005
+
+
+ ----------------------------------------------------------------------------
+
+ F-Tetris is a  nice clone of the classic  tetris game.  I wrote that game in
+ summer 2002  for my girlfriend - Monika.  Because we were on holidays  and I
+ haven't any other compilator,  I wrote the whole game  in native QuickBASIC.
+
+
+            - This is a free software, meaning no commercial ways.
+            It has absolutely no warranties, so you use it at your
+            own risk. F-Tetris can be freely copied by anyone. It
+            cannot be sold for profit.
+
+
+
+  FILE LIST:
+
+ F-TETRIS CFG         89  30.04.05  1:53  -  Configuration file (settings)
+ F-TETRIS DAT     37.577  30.04.05  1:53  -  Data file
+ F-TETRIS EXE     66.585  30.04.05  1:53  -  The main executable
+ F-TETRIS HOF        481  30.04.05  1:53  -  The Hall of Fame (HiScores)
+ F-TETRIS ICO      2.238  30.04.05  1:53  -  An icon for desktop systems
+ F-TETRIS TXT      4.806  30.04.05  1:53  -  F-Tetris documentation
+
+
+
+  SYSTEM REQUIREMENTS:
+
+ Minimal hardware recomendation:
+ CPU 486 / 50 MHz
+ 640 kB RAM
+ MCGA graphic+B/W monitor
+
+ Recomended hardware:
+ CPU Pentium 75 MHz
+ 640 kB RAM
+ VGA graphic+color monitor
+
+ Note: The game should have the possibility to write on the disk. If launched
+       from a CD-ROM the game will obviously not be able to save the settings
+       and high-scores tables.
+
+
+
+  GAME MODES:
+
+ Classic  - You play  with the  blocks from  the classic  game.  The speed is
+            increasing  by 1 at each 1000 points  you pass after  a full line
+            (except if  you started  the game with  a higher speed).  You get
+            6 points for a dropped block and 100 points for a complete line.
+ Hard     - There are some  additional blocks.  It makes the game harder, but
+            you get 2x more points  for everything (12 pts per block  and 200
+            pts per complete line) and the speed isn't increasing at all.
+ Bastard! - The rules are exactly the same than in Hard mode, but the program
+            will pay attention  to not give you some  usefull blocks when you
+            need them the most.  That's a bit more difficult  than hard mode,
+            but the scoring is better: 3x more points than in Classic mode!
+
+
+
+  THE HALL OF FAME
+
+ The HiScores  are in the  Hall of Fame,  which is stored in the F-TETRIS.HOF
+ file. If you have  two F-TETRIS.HOF file with  nice scores - for example, if
+ you copied a F-TETRIS.HOF file from a friend, you can add his scores to your
+ own Hall of Fame. To do that, just run:   F-TETRIS /addhof <hof_file>.
+  Example:
+   You copied a friend's F-TETRIS.HOF file on a  floppy disk and you want add
+   his scores  to your  copy  of F-Tetris.  Insert the  floppy disk  with the
+   F-TETRIS.HOF file you copied,  go to the directory with  your F-Tetris and
+   type:   F-TETRIS /ADDHOF A:\F-TETRIS.HOF
+   The game will  automatically compare the  scores in both Halls of Fame and
+   create a  new one  with the  best scores.  If in  the 'other' Hall of Fame
+   there are two records with the same name (only different scores), F-Tetris
+   will take only the highest one. After that launch F-Tetris and look in the
+   Hall of Fame to verify that the game has done the job ok.
+
+
+  HOW TO ERASE THE HIGH SCORES
+
+ If for some  reasons you want  to reset the  high scores (the Hall Of Fame),
+ just delete (or rename) the file "F-TETRIS.HOF". The game will automatically
+ create a new empty one.
+
+
+
+  WHAT TO DO IF THE GAME RUNS TO SLOW?
+
+ First check if it not runs too slow because you set the speed too low...
+ If the  "speed"  option  isn't  changing  anything it's  meaning  that  your
+ hardware is too slow;
+ If you play with a joystick, try to start playing with keyboard support, the
+ joystick  routine  in the  game is  a little  primitive  and a  slowdown may
+ happens with some cheap joysticks.
+ If you play in "color" mode,  try to switch to "mono" mode. The mono mode is
+ faster  (less informations to process...) and the  hardware routine for mono
+ is a bit faster than the one for color.
+ On some oldschool PCs  it may happen that  the blocks will take more time to
+ appear in  "Bastard!" mode. It's due  to the fact that the program is trying
+ to guess which block is the most wanted by you and give you another one. ;)
+
+
+
+
+                                                          Enjoy!
+                                                          Mateusz Viste "Fox"
+
+
+                         http://the.killer.webpark.pl
+                               the.killer@wp.pl
+
+ ----------------------------------------------------------------------------
+ <EOF>

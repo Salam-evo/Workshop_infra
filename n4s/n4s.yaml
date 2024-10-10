@@ -1,0 +1,10 @@
+apiVersion: retro.sparkfabrik.com/v1
+kind: Game
+metadata:
+  name: n4s
+  namespace: games
+spec:
+  name: "Need for Speed"
+  zipUrl: "https://dosgames.com/files/needfspd.zip"
+  dir: "."
+  exe: "TNFS.EXE"
